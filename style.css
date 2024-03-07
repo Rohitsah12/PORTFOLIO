@@ -35,7 +35,7 @@
 .logotext{
     margin: -0.5rem;
     font-size: 30px;
-    color: #353935;
+    color: #000000;
 }
 
 
@@ -60,3 +60,71 @@ a{
     transition:0.8s ;
     font-weight: bold;
 }
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+.fadedtext{
+    user-select: none;
+    font-size: 7em;
+    color: #e7e7e7;
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
+}
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-section-heading{
+    font-size: 35px;
+    color:#343d68;
+    font-weight: 500;
+}
+.hero-section-subheading{
+    font-size: 45px;
+    line-height: 45px;
+}
+.hero-section-discription{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight: 500;
+}
+.myimage img {
+    height: 300px; /* Adjust the height value as needed */
+
+}
+.hero-section-right{
+   position: relative;
+
+}
+.myimage{
+    padding: 2.5rem;
+    transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+}
+@keyframes scaleImage {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+        
+    }
+    100%{
+        box-shadow: 3px 3px 10px #000000;
+        transform: scale(1);
+    }
+    
+}
+
