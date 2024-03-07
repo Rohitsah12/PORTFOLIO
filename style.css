@@ -71,11 +71,12 @@ a{
     padding-bottom: 8rem;
 }
 .fadedtext{
+    position: absolute;
     user-select: none;
-    font-size: 7em;
+    font-size: 6em;
     color: #e7e7e7;
     bottom: -16%;
-    left: -5%;
+    left: -2%;
     font-weight: bold;
     transition: all 3s;
 }
@@ -119,7 +120,6 @@ a{
     }
     50%{
         transform: scale(1.1);
-        
     }
     100%{
         box-shadow: 3px 3px 10px #000000;
