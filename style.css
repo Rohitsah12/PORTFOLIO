@@ -1,23 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap");
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
 #wrapper{
     height:100vh;
-    overflow-y:auto;
-    overflow-x: hidden;
+    overflow-y:auto;/*only y direction mein scroll krna h*/
+     overflow-x: hidden; /*x direcion mein scroll nhi krna h */
 }
 .container{
     width:1200px;
     margin:0 auto;
-
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;/*For space between name and projects etc.*/
     align-items: center;
     padding-top: 1rem;
 }
@@ -29,9 +32,10 @@
     justify-content: baseline;
     align-items: center;
 }
-.logo-text{
-    margin-left: -3rem;
-    font-size: 28px;
+.logotext{
+    margin: -0.5rem;
+    font-size: 30px;
+    color: #353935;
 }
 
 
@@ -44,4 +48,15 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+.nav-items div a{
+    color: #353935
+}
+a{
+    text-decoration: none;
+
+}
+.nav-items div:hover{
+    transition:0.8s ;
+    font-weight: bold;
 }
