@@ -323,3 +323,70 @@ a{
     width: 100%;
     background-color: #e7e7e7;
 }
+
+.button {
+            display: inline-block;
+        }
+
+        .button button {
+            border: none;
+            padding: 10px 20px;
+            background-color: #FF4136; /* Red color, you can change this */
+            color: #fff; /* Text color */
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button button:hover {
+            background-color: #DC2F26; /* Darker shade of red on hover */
+            scale:1.1;
+        }
+
+
+.submit-icon {
+            margin-left: 10px; /* Adjust spacing between button text and icon */
+            font-size: 18px; 
+}
+.contactme-heading{
+    font-size: 4em;
+    color:#ff0000;
+    padding-top: 2rem;
+}
+.contactme-subheading{
+    font-size: 3rem;
+    color: #343d68aa;
+    text-transform: capitalize;
+}
+.contactus-form-container{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    margin: 2rem 5rem;
+}
+.formField-container{
+    width:100%;
+}
+.formfield{
+    width: 100%;
+    height: 42px;
+    padding: 0 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    font-weight: 500;
+    border: none;
+    margin-top: 27px;
+}
+.formfield-textarea{
+    height: auto;
+    padding-top: 1rem;
+}
