@@ -265,3 +265,15 @@ a{
     margin-left: 120px;
     background-image: url(./images/forme/project2.png);
 }
+.skills-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 30px;
+}
+.skill-container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
